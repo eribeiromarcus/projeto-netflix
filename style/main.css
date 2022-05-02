@@ -1,0 +1,135 @@
+
+:root{
+    --amarelo: #fbde07;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Elementos Base*/
+body {
+    background: var(--preta);
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header .container .container1 {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+}
+header .logo {
+    margin-left: 5px;
+    margin-right: 20px;
+   
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 6px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+.botaomenu {
+    background-color: rgba(0, 0, 0, .70);
+    border: none;
+    color: white;
+    padding: 15px 17px;
+    margin-right: 2px;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 50%;
+}
+.botaomenu:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+/* Filme principal*/
+
+.hqprincipal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.30),rgba(0,0,0,.50) 100%), url('/img/background/dd.png');
+    height: 450px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.hqprincipal .descricao {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hqprincipal .titulo {
+    margin-top: 10%;
+ margin-bottom: 1%;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, .70);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-right: 10px;
+    font-size: 14px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+.botao i{
+    margin-right: 7px;
+}
+.container{
+    margin-left: 20px;
+}
+.hqprincipal .container{
+    width: 60%;
+    text-align: justify;
+}
+
+.boxhq{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosselhq{
+    margin-top: 10px;
+}
+
+.divcarrossel {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+.item{
+    cursor: pointer
+}
